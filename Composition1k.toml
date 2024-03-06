@@ -4,9 +4,9 @@ dist = true
 [model]
 checkpoint = "checkpoints/best_model_mse.pth"
 [data]
-test_image = "/home/lyh/Composition-1k-testset/Test_set/merged"
-test_alpha = "/home/lyh/Composition-1k-testset/Test_set/alphas"
-test_trimap = "/home/lyh/Composition-1k-testset/Test_set/trimaps"
+test_image = "Composition-1k-testset/merged"
+test_alpha = "Composition-1k-testset/alphas"
+test_trimap = "Composition-1k-testset/trimaps"
 test_out = "output"
 [classifier]
 resume_checkpoint = "checkpoints/fbce.pth"
