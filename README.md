@@ -20,6 +20,7 @@ The model is trained on Composition-1K train dataset.
 
 ## Testing on Composition-1K
 Download the model file 'checkpoints/' and place it in the root directory.
+
 Update the file paths for input data, output data, pre-trained model, etc., in the 'Composition1k.toml' configuration file.
 
 1.Run the test code
