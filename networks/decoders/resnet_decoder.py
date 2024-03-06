@@ -244,17 +244,17 @@ class ResShortCut_D_Decoder(ResNet_D_Dec):
             f_os8 = torch.sigmoid(fb_os8[:, 0:3])
             b_os8 = torch.sigmoid(fb_os8[:, 3:6])
         
-        ret['alpha_os1'] =  alpha_os1
-        ret['alpha_os4'] =alpha_os4
+        ret['alpha_os1'] = alpha_os1
+        ret['alpha_os4'] = alpha_os4
         ret['alpha_os8'] = alpha_os8
         if is_training:
-            ret['f_os1'] =  f_os1
-            ret['b_os1'] =  b_os1
+            ret['f_os1'] = f_os1
+            ret['b_os1'] = b_os1
             
-            ret['f_os4'] =  f_os4
-            ret['b_os4'] =  b_os4
+            ret['f_os4'] = f_os4
+            ret['b_os4'] = b_os4
             
-            ret['f_os8'] =  f_os8
-            ret['b_os8'] =  b_os8
+            ret['f_os8'] = f_os8
+            ret['b_os8'] = b_os8
         return ret
 
