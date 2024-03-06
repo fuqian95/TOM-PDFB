@@ -32,7 +32,9 @@ python3 inference.py
 ## Testing on Transparent-460
 
 Obtain the dataset from [TransMatting](https://github.com/AceCHQ/TransMatting). 
+
 Run the test code. 
+
 Evaluate the results using the evaluation code provided in Transparent-460.
 
 ## Acknowledgment
