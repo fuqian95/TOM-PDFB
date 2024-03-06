@@ -11,8 +11,8 @@ The codes are tested in the following environment:
 The model is trained on Composition-1K train dataset.
 | Models | SAD | MSE(x10^(-3)) | Grad | Conn | Link|
 |  ----  | ----  |  ----  | ----  |  ----  | ----  |
-| TOM-PDFB | 21.46 | 3.36 | 7.38 | 16.09 | [Google Drive]([https://www.google.com](https://drive.google.com/file/d/13vXPZbK8bePZaBtPRIXCVRKYmFN4l_ty/view?usp=sharing) |
-|  ----  | ----  |  ----  | ----  |  ----  | ----  |
+| TOM-PDFB | 21.46 | 3.36 | 7.38 | 16.09 | [Google Drive](https://drive.google.com/file/d/13vXPZbK8bePZaBtPRIXCVRKYmFN4l_ty/view?usp=sharing) |
+
 
 ## Testing
 
