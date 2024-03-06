@@ -6,6 +6,10 @@ The codes are tested in the following environment:
 - pytorch 1.10.1
 - CUDA 10.2 & CuDNN 8
 
+~~~python
+pip3 install -r requirements.txt
+~~~
+
 ## Performance
 
 The model is trained on Composition-1K train dataset.
@@ -15,15 +19,10 @@ The model is trained on Composition-1K train dataset.
 
 
 ## Testing
-
 Download the model file 'checkpoints/' and place it in the root directory.
 Update the file paths for input data, output data, pre-trained model, etc., in the 'Composition1k.toml' configuration file.
 
-~~~python
-pip3 install -r requirements.txt
-~~~
-
-1.run the test code
+1.Run the test code
 ~~~python
 python3 inference.py
 ~~~
